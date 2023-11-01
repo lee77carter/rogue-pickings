@@ -7,7 +7,9 @@ body {
 
 /* The width property has been changed to max-width */
 .content-wrapper {
-	max-width: 1200px;
+	max-width: 90%;
+	display: flex;
+	justify-content: center;
 }
 
 h1,
@@ -42,6 +44,8 @@ p {
 /* The widths are in a percentage! */
 header {
 	height: 110px;
+	display: flex;
+	justify-content: center;
 }
 
 header h1 {
@@ -92,6 +96,8 @@ header nav ul li a {
 /******** BOTTOM SECTION ********/
 .top-section,
 .bottom-section {
+	display: flex;
+	justify-content: center;
 
 }
 
@@ -141,6 +147,8 @@ header nav ul li a {
 footer {
 	text-align: center;
 	margin-top: 8px;
+	display: flex;
+	justify-content: center;
 }
 
 footer span {
