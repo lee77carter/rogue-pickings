@@ -1,15 +1,21 @@
 /******** GLOBAL STYLES ********/
+html {
+	font-size: 16px;
+}
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: .9em;
 	color: #000000;
 }
 
 /* The width property has been changed to max-width */
 .content-wrapper {
-	max-width: 90%;
+	max-width: 1200px;
+	width: 90%;	
 	display: flex;
 	justify-content: center;
+	flex-flow: row wrap;
 }
 
 h1,
@@ -21,36 +27,39 @@ h4 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875em  /* font-size: 30px; */
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 1.5em;  	/* font-size: 24px; */
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25em;  /* font-size: 20px; */
 }
 
 h4 {
-	font-size: 12px;
+	font-size: 0.75em;  /* font-size: 12px; */
 }
 
 p {
+	font-size: 1rem;
 	line-height: 36px;
 }
 
 /******** HEADER STYLES ********/
 /* The widths are in a percentage! */
 header {
-	height: 110px;
+	text-align: center;
 	display: flex;
 	justify-content: center;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px 0;
+	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
 
 header h1 span {
@@ -58,19 +67,21 @@ header h1 span {
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 }
 
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style-type: none; /* removed bullets */
 }
 
 header nav ul li {
-	font-size: 14px;
+	font-size: 0.875em;
+	/* font-size: 14px */
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 20px 20px;
 }
 
 header nav ul li a {
@@ -110,21 +121,23 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	padding: 0 40px;
 }
 
 .section-one {
-	width: 29%;
+	/* width: 29%; */
+    width: 100%;
 }
 
 .section-two {
-	width: 42%;
+	/* width: 42%; */
+	width: 100%;
 	border-left: 5px solid #EEE;
 	border-right: 5px solid #EEE;
 }
 
 .section-three {
-	width: 29%;
+	/* width: 29%; */
+	width: 100%;
 }
 
 .bottom-section h3 {
@@ -138,14 +151,13 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 16px;
+	font-size: 1rem; /* font-size: 16px */
 	line-height: 36px;
 }
 
 /******** FOOTER STYLES ********/
 /* The widths are in a percentage! */
 footer {
-	text-align: center;
 	margin-top: 8px;
 	display: flex;
 	justify-content: center;
@@ -155,5 +167,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 14px;
+	font-size: .875rem; /* font-size: 14px */
 }
