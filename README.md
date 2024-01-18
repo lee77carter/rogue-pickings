@@ -5,4 +5,4 @@
 
 A mobile-friendly website template crafted for Rogue Pickings Company.
 
-<a href="https://lee77carter.github.io/coding-responsive-rogue-pickings-01-starter-code/">Visit Rogue Pickings Here!</a>  
+<a href="https://lee77carter.github.io/rogue-pickings/">Visit Rogue Pickings Here!</a>  
