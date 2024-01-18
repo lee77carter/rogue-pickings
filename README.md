@@ -1,4 +1,4 @@
-# responsive-rogue-pickings
+# rogue-pickings
 
  ![Rogue Snapshot](img/rogue-snap.png)
 
